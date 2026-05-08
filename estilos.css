@@ -1,0 +1,46 @@
+h1 {
+    color: gray;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Boton de busqueda de proyectos */
+input{
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 13em;
+  border-radius: 1rem;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+}
+
+input:focus {
+  outline-color: rgb(129, 203, 252);
+}
+
+/* Estilos de la barra de filtros */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: black;
+}
