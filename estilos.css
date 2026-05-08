@@ -58,10 +58,34 @@ nav a:hover {
   display: flex;
 }
 
-
-/* IMAGENES */
-img {
-  width: 150%;
+img { 
+  width: 100%;
   height: auto;
-  border-radius: 1rem;
+} 
+
+/* CONTENEDOR DE CADA PROYECTO */
+.proyecto {
+  background: #2f97bd;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* IMAGEN */
+.proyecto img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+/* TEXTO */
+.proyecto h4,
+.proyecto p,
+.proyecto a {
+  text-align: left;
+  display: block;
+  margin-top: 15px;
 }
