@@ -4,7 +4,7 @@ h1 {
     font-size: 50px;
 }
 
-p {
+.Bienvenida {
     font-size: 18px;
     text-align: center;
 }
@@ -43,4 +43,25 @@ nav a {
 
 nav a:hover {
   color: black;
+}
+
+.proyecto {
+ background: #2596be;    
+ color: black;
+ padding: 100px;
+ width: 200px;
+ margin: 10px;
+}
+
+
+.padre {
+  display: flex;
+}
+
+
+/* IMAGENES */
+img {
+  width: 150%;
+  height: auto;
+  border-radius: 1rem;
 }
